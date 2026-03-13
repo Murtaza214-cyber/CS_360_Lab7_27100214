@@ -14,6 +14,6 @@ public class ShowActivity extends AppCompatActivity {
         TextView textView = findViewById(R.id.textView_city_name);
         textView.setText(cityName);
         Button backButton = findViewById(R.id.button_back);
-        backButton.setOnClickListener(v -> finish()); // Goes back to MainActivity
+        backButton.setOnClickListener(v -> finish());
     }
 }
